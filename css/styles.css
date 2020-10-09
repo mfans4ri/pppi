@@ -291,5 +291,9 @@ p{
     #social-media-section p{
         font-size: .8rem;
     }
+    
+    #first-section{
+        margin-top: -60px;
+    }
 }
 
