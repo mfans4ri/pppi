@@ -9,6 +9,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+
 #about-us-section h1,
 #about-us-section p
 {
@@ -52,6 +53,10 @@ p{
 
 #logo{
     width: 90px;
+}
+
+#btn-android{
+    margin-left: 10px;
 }
 
 #services{
@@ -247,3 +252,44 @@ p{
         margin-bottom: -100px;
     }
 }
+
+
+@media (max-width: 600px){
+    #right h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+    
+    #btn-android{
+        margin-left: 0;
+        margin-top: 20px;
+        width: 250px;
+    }
+    #btn-apple{
+        width: 250px;
+    }
+    
+    #tools-head{
+        font-size: 3rem;
+        margin-bottom: -30px;
+    }
+    
+    .tools-img{
+        width: 150px;
+    }
+    
+    #m-title-p{
+        padding-bottom: 25px;
+    }
+    
+    .social-icon{
+        margin-top: 25px;
+        padding: 3px;
+    }
+    
+    #social-media-section p{
+        font-size: .8rem;
+    }
+}
+
