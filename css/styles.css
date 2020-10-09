@@ -1,0 +1,249 @@
+
+
+#title-section{
+    background: rgb(18,8,181);
+    background: linear-gradient(90deg, rgba(18,8,181,1) 0%, rgba(5,106,171,1) 100%);
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#about-us-section h1,
+#about-us-section p
+{
+    color: white;
+}
+
+#left, #right{
+    padding: 100px 0 50px 0;
+}
+
+#right{
+    color: white;
+}
+
+#right h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+#serivces-cont h1{    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: rgba(18,8,181,1);
+    margin-bottom: 20px;
+}
+
+#right{
+    padding-right: 20px;    
+}
+
+p{
+    line-height: 2;
+}
+
+#right p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    opacity: 80%;
+}
+
+#logo{
+    width: 90px;
+}
+
+#services{
+    padding: 30px 0;
+}
+.services-card {
+    margin: 10px 0;
+    border: 7px solid #000000;
+    transition: all 0.4s ease-in-out;
+}
+
+.services-card:hover {
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.5);
+}
+
+#company-name{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+#android-download{
+    margin-left: 5px;    
+}
+
+#android-download:hover{
+    
+    background-color: #64c700;
+    border: solid 1px #64c700;
+}
+
+.video-section{
+    width: 100%;
+    height: 500px;
+    background-color: darkgrey;
+}
+
+.nav-item{
+    padding: 0 7px;
+}
+
+
+/*video section*/
+
+
+
+/*service section*/
+
+#services{
+    text-align: center;
+    padding: 3% 15%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.service-box .row .responsive h2{
+    font-weight: bolder;
+    color: #444444;
+    
+    padding-top: 1rem;
+}
+
+
+.service-box h1{
+    font-weight: bolder;
+    color: rgba(18, 8, 181, 0.82);
+    padding-bottom: 3rem;
+    
+}
+
+.service-box .row .responsive p{
+    line-height: 1.7;
+    font-size: 1.2rem;
+}
+
+.responsive{
+    padding-bottom: 2.5rem;
+}
+
+.icon{
+    color: rgba(18, 8, 181, 0.82);
+    transition: all 0.3s ease-in-out;
+    
+}.icon:hover{
+    color: rgb(18,8,181);
+    transition: all 0.3s ease-in-out;
+}
+
+
+/*tools*/
+#tools{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: rgba(18, 8, 181, 0.82);
+}
+#tools-head{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-size: 6rem;
+    padding: 50px;
+    opacity: 50%;
+    margin-bottom: -70px;
+}
+
+.tools-content p{
+    line-height: 1.7;
+    font-size: 1.2rem;
+    color: white;
+    opacity: 60%;
+}
+
+.tools-content h1{
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+   
+}
+
+.tools-content{
+    padding: 3% 15%;
+}
+
+.tools-img{
+    width: 15%;
+    margin-bottom: 20px;
+    border-radius: 100%;
+}
+
+/*pricing*/
+#pricing-section{
+    padding-top: 4rem;;
+    
+}
+
+/*download section*/
+#download-section{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: rgba(18, 8, 181, 0.82);
+    padding: 5% 15%;
+}
+
+
+#download-section h1{
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#download-section button{
+    margin: 10px;
+    padding: 15px 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+#download-section button:hover{
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+/*social-media-section*/
+#social-media-section{
+    text-align: center;
+    padding: 3% 15% 1%;
+}
+
+.social-icon{
+    margin: 0 25px;
+    transition: all 0.3s ease-in-out;
+    color: grey;
+}
+
+.social-icon:hover{
+    transition: all 0.3s ease-in-out;
+    color: rgba(18, 8, 181, 0.82);
+}
+
+#social-media-section p{
+    margin: 1.7rem 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+/*media queries*/
+@media (max-width: 990px){
+    #right{
+        text-align: center;
+        margin-bottom: -100px;
+    }
+}
